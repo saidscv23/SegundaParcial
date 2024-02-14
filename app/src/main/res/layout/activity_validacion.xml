@@ -6,17 +6,48 @@
     android:layout_height="match_parent"
     tools:context=".validacion">
 
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="419dp"
+        android:text="Y mi deporte Favorito es el" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="490dp"
+        android:text="Estoy Estudiando la Carrera " />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="182dp"
+        android:layout_height="47dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="542dp"
+        android:text="Mi numero de cedular para que me llames es este" />
+
     <EditText
         android:id="@+id/nombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="98dp"
-        android:layout_marginBottom="613dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="605dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Name" />
+        android:text="Name"
+        android:textSize="12sp" />
 
     <EditText
         android:id="@+id/edad"
@@ -24,11 +55,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="103dp"
-        android:layout_marginBottom="535dp"
+        android:layout_marginEnd="228dp"
+        android:layout_marginBottom="552dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Name" />
+        android:text="Name"
+        android:textSize="12sp" />
 
     <EditText
         android:id="@+id/telefono"
@@ -36,11 +68,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="110dp"
-        android:layout_marginBottom="454dp"
+        android:layout_marginEnd="230dp"
+        android:layout_marginBottom="487dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Name" />
+        android:text="Name"
+        android:textSize="12sp" />
 
     <EditText
         android:id="@+id/carrera"
@@ -48,11 +81,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="108dp"
-        android:layout_marginBottom="361dp"
+        android:layout_marginEnd="229dp"
+        android:layout_marginBottom="417dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Name" />
+        android:text="Name"
+        android:textSize="12sp" />
 
     <EditText
         android:id="@+id/deporte"
@@ -60,11 +94,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="110dp"
-        android:layout_marginBottom="266dp"
+        android:layout_marginEnd="223dp"
+        android:layout_marginBottom="336dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Name" />
+        android:text="Name"
+        android:textSize="12sp" />
 
     <Button
         android:id="@+id/Guardar"
@@ -72,7 +107,38 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="155dp"
-        android:layout_marginBottom="166dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="80dp"
+        android:onClick="crearTablaDatos"
         android:text="GuardarBDD" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="291dp"
+        android:layout_marginBottom="613dp"
+        android:text="Hola me llamo" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="610dp"
+        android:text="Tengo la edad de" />
+
+    <Button
+        android:id="@+id/regresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="251dp"
+        android:layout_marginBottom="86dp"
+        android:text="Regresar" />
 </RelativeLayout>
